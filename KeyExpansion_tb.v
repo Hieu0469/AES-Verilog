@@ -32,6 +32,7 @@ end
 initial begin
     key = 256'h603deb1015ca71be2b73aef0857d77811f352c073b6108d72d9810a30914dff4;
     #160; // Wait for the key expansion to complete
+    $display("Initial Key: %h", key);
     $display("Key 0: %h", key_0);
     $display("Key 1: %h", key_1);
     $display("Key 2: %h", key_2);
