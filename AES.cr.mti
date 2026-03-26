@@ -12,6 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	rcon
 
+} {} {}} E:/work/HDL/Doan/KeyExpansion.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/KeyExpansion.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module key_expansion
+
+Top level modules:
+	key_expansion
+
 } {} {}} E:/work/HDL/Doan/KeyExpansion_tb.v {1 {vlog -work work -stats=none {E:\work\HDL\Doan\KeyExpansion_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module key_expansion_tb
