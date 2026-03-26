@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/work/HDL/LAB1
+vkey_expansion
+Z0 !s110 1774510497
+!i10b 1
+!s100 b3>f<n1Q49oOb1XaINA^g2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihc[V:T_;lK^RXoPH?m5Nm2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/work/HDL/Doan
+w1774510486
+8E:/work/HDL/Doan/KeyExpansion.v
+FE:/work/HDL/Doan/KeyExpansion.v
+!i122 18
+L0 1 246
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1774510497.000000
+!s107 E:/work/HDL/Doan/KeyExpansion.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/KeyExpansion.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vkey_expansion_tb
+R0
+!i10b 1
+!s100 hObI[Mka8z`_5lMoFg01W1
+R1
+IK__RD=QHTgA2AOC:jmb@[2
+R2
+R3
+w1774510224
+8E:\work\HDL\Doan\KeyExpansion_tb.v
+FE:\work\HDL\Doan\KeyExpansion_tb.v
+!i122 20
+L0 1 49
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:\work\HDL\Doan\KeyExpansion_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\work\HDL\Doan\KeyExpansion_tb.v|
+!i113 1
+R6
+R7
+vrcon
+R0
+!i10b 1
+!s100 aD6ld>?mZ`TkObRAPC_Pj1
+R1
+I>WWC]a=F6mWP[IPoNnKN^1
+R2
+R3
+w1774509870
+8E:\work\HDL\Doan\rcon.v
+FE:\work\HDL\Doan\rcon.v
+!i122 19
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:\work\HDL\Doan\rcon.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\work\HDL\Doan\rcon.v|
+!i113 1
+R6
+R7
+vsbox
+!s110 1774510498
+!i10b 1
+!s100 VBiCaJKI3QiLH;e2>d?dS0
+R1
+ImR_444cnZ0fKJj5NM6lCc2
+R2
+R3
+w1774492204
+8E:/work/HDL/Doan/sbox.v
+FE:/work/HDL/Doan/sbox.v
+!i122 21
+L0 1 269
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/sbox.v|
+!i113 1
+R6
+R7

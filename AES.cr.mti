@@ -1,0 +1,22 @@
+E:/work/HDL/Doan/sbox.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/sbox.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sbox
+
+Top level modules:
+	sbox
+
+} {} {}} E:/work/HDL/Doan/rcon.v {1 {vlog -work work -stats=none {E:\work\HDL\Doan\rcon.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rcon
+
+Top level modules:
+	rcon
+
+} {} {}} E:/work/HDL/Doan/KeyExpansion_tb.v {1 {vlog -work work -stats=none {E:\work\HDL\Doan\KeyExpansion_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module key_expansion_tb
+
+Top level modules:
+	key_expansion_tb
+
+} {} {}}
