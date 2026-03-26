@@ -1,33 +1,14 @@
-# Compile of KeyExpansion.v was successful.
-# Compile of rcon.v was successful.
-# Compile of KeyExpansion_tb.v was successful.
-# Compile of sbox.v was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.key_expansion_tb
-# vsim -gui work.key_expansion_tb 
-# Start time: 16:12:08 on Mar 26,2026
-# Loading work.key_expansion_tb
-# Loading work.key_expansion
-# Loading work.rcon
-# Loading work.sbox
+project open E:/work/HDL/Doan/AES
+# Compile of ShiftRows.v was successful.
+# Compile of ShiftRows_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shift_rows_tb
+# vsim -gui work.shift_rows_tb 
+# Start time: 16:31:19 on Mar 26,2026
+# Loading work.shift_rows_tb
+# Loading work.shift_rows
 run -all
-# Initial Key: 603deb1015ca71be2b73aef0857d77811f352c073b6108d72d9810a30914dff4
-# Key 0: 603deb1015ca71be2b73aef0857d7781
-# Key 1: 1f352c073b6108d72d9810a30914dff4
-# Key 2: 9ba354118e6925afa51a8b5f2067fcde
-# Key 3: a8b09c1a93d194cdbe49846eb75d5b9a
-# Key 4: d59aecb85bf3c917fee94248de8ebe96
-# Key 5: b5a9328a2678a647983122292f6c79b3
-# Key 6: 812c81addadf48ba24360af2fab8b464
-# Key 7: 98c5bfc9bebd198e268c3ba709e04214
-# Key 8: 68007bacb2df331696e939e46c518d80
-# Key 9: c814e20476a9fb8a5025c02d59c58239
-# Key 10: de1369676ccc5a71fa2563959674ee15
-# Key 11: 5886ca5d2e2f31d77e0af1fa27cf73c3
-# Key 12: 749c47ab18501ddae2757e4f7401905a
-# Key 13: cafaaae3e4d59b349adf6acebd10190d
-# Key 14: fe4890d1e6188d0b046df344706c631e
-# Break key hit
-# Simulation stop requested.
-# End time: 16:12:41 on Mar 26,2026, Elapsed time: 0:00:33
+# State In: 000102030405060708090a0b0c0d0e0f
+# State Out: 00050a0f04090e03080d02070c01060b
+# End time: 16:36:24 on Mar 26,2026, Elapsed time: 0:05:05
 # Errors: 0, Warnings: 3

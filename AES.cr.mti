@@ -5,12 +5,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	sbox
 
-} {} {}} E:/work/HDL/Doan/KeyExpansion.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/KeyExpansion.v
+} {} {}} E:/work/HDL/Doan/ShiftRows.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/ShiftRows.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module key_expansion
+-- Compiling module shift_rows
 
 Top level modules:
-	key_expansion
+	shift_rows
+
+} {} {}} E:/work/HDL/Doan/ShiftRows_tb.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/ShiftRows_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_rows_tb
+
+Top level modules:
+	shift_rows_tb
 
 } {} {}} E:/work/HDL/Doan/rcon.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/rcon.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -18,6 +25,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	rcon
+
+} {} {}} E:/work/HDL/Doan/KeyExpansion.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/KeyExpansion.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module key_expansion
+
+Top level modules:
+	key_expansion
 
 } {} {}} E:/work/HDL/Doan/KeyExpansion_tb.v {1 {vlog -work work -stats=none E:/work/HDL/Doan/KeyExpansion_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
