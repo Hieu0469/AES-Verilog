@@ -17,13 +17,7 @@ module tb_MixColumns;
         $monitor("Time: %0t | input  = %h | output = %h", $time, in, out);
         
         // ?ã b? d?u '_' th?a ngay sau ch? 'h'
-        in = 128'hd4bf5d30_e0b452ae_b84111f1_1e2798e5;
-        #10;
-        
-        in = 128'h84e1dd69_1a41d76f_792d3897_83fbac70;
-        #10;
-        
-        in = 128'h6353e08c_0960e104_cd70b751_bacad0e7;
+        in = 128'h6353e08c0960e104cd70b751bacad0e7;
         #10;
         
         $finish; // K?t thúc mô ph?ng

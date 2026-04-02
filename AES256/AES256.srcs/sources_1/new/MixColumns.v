@@ -1,11 +1,8 @@
-`timescale 1ns / 1ps
-
 module MixColumns(
     input  [127:0] state_in,
     output [127:0] state_out
 );
 
-    // Hàm nhân 2 trong tr??ng Galois GF(2^8)
     function [7:0] mb2; 
         input [7:0] x;
         begin 
@@ -16,7 +13,6 @@ module MixColumns(
         end 	
     endfunction
 
-    // Hàm nhân 3 trong tr??ng Galois GF(2^8)
     function [7:0] mb3; 
         input [7:0] x;
         begin 
