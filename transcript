@@ -1,0 +1,14 @@
+project open E:/work/HDL/Doan/AES
+# Compile of ShiftRows.v was successful.
+# Compile of ShiftRows_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.shift_rows_tb
+# vsim -gui work.shift_rows_tb 
+# Start time: 16:31:19 on Mar 26,2026
+# Loading work.shift_rows_tb
+# Loading work.shift_rows
+run -all
+# State In: 000102030405060708090a0b0c0d0e0f
+# State Out: 00050a0f04090e03080d02070c01060b
+# End time: 16:36:24 on Mar 26,2026, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 3
