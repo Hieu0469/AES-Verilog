@@ -1,0 +1,26 @@
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.sim/
+*.runs/
+*.ip_user_files/
+# Bỏ qua toàn bộ các thư mục và file do Vivado/Quartus sinh ra
+*.xpr
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dir/
+.Xil/
+AES256/
+*/AES256.srcs/
+*/AES256.sim/
+*/AES256.cache/
+*/AES256.hw/
+*/AES256.ip_user_files/
