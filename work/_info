@@ -9,29 +9,53 @@ z2
 !i10f 100
 cModel Technology
 dE:/work/HDL/LAB1
-vkey_expansion
-Z0 !s110 1774516265
+vaddRoundKey
+Z0 !s110 1778552602
 !i10b 1
-!s100 ^F8_4kHhHLEQdLdc1iK363
+!s100 d`HRYFcN:zRiKZ4M[i@4g0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IAkIdDNbeL8YLz=2E8bZUg2
+Io7l28R>9KMfDljJDdgUnR2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dE:/work/HDL/Doan
-w1774511481
-8E:/work/HDL/Doan/KeyExpansion.v
-FE:/work/HDL/Doan/KeyExpansion.v
-!i122 35
-L0 1 246
+w1775137857
+8E:/work/HDL/Doan/AddRoundKey.v
+FE:/work/HDL/Doan/AddRoundKey.v
+!i122 212
+L0 1 9
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1774516265.000000
-!s107 E:/work/HDL/Doan/KeyExpansion.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/KeyExpansion.v|
+Z5 !s108 1778552602.000000
+!s107 E:/work/HDL/Doan/AddRoundKey.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/AddRoundKey.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
+nadd@round@key
+vkey_expansion
+!s110 1778552601
+!i10b 1
+!s100 ^F8_4kHhHLEQdLdc1iK363
+R1
+IAkIdDNbeL8YLz=2E8bZUg2
+R2
+R3
+w1775179207
+8E:/work/HDL/Doan/KeyExpansion.v
+FE:/work/HDL/Doan/KeyExpansion.v
+!i122 202
+L0 1 246
+R4
+r1
+!s85 0
+31
+!s108 1778552601.000000
+!s107 E:/work/HDL/Doan/KeyExpansion.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/KeyExpansion.v|
+!i113 1
+R6
+R7
 vkey_expansion_tb
 R0
 !i10b 1
@@ -43,7 +67,7 @@ R3
 w1774515875
 8E:/work/HDL/Doan/KeyExpansion_tb.v
 FE:/work/HDL/Doan/KeyExpansion_tb.v
-!i122 37
+!i122 204
 L0 1 53
 R4
 r1
@@ -55,6 +79,30 @@ R5
 !i113 1
 R6
 R7
+vMixColumns
+!s110 1778552603
+!i10b 1
+!s100 ]aA9PRPz3;JZkY3:n=^kZ2
+R1
+IkJgA9[geXhmK9Yd8K:i7X1
+R2
+R3
+w1775137868
+8E:/work/HDL/Doan/MixColumns.v
+FE:/work/HDL/Doan/MixColumns.v
+!i122 213
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/MixColumns.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/MixColumns.v|
+!i113 1
+R6
+R7
+n@mix@columns
 vrcon
 R0
 !i10b 1
@@ -66,7 +114,7 @@ R3
 w1774509870
 8E:/work/HDL/Doan/rcon.v
 FE:/work/HDL/Doan/rcon.v
-!i122 36
+!i122 203
 L0 1 18
 R4
 r1
@@ -89,7 +137,7 @@ R3
 w1774492204
 8E:/work/HDL/Doan/sbox.v
 FE:/work/HDL/Doan/sbox.v
-!i122 38
+!i122 205
 L0 1 269
 R4
 r1
@@ -102,7 +150,7 @@ R5
 R6
 R7
 vshift_rows
-Z8 !s110 1774517467
+R0
 !i10b 1
 !s100 EHFg5<B=31I_TmbYN`0iG3
 R1
@@ -112,20 +160,20 @@ R3
 w1774517220
 8E:/work/HDL/Doan/ShiftRows.v
 FE:/work/HDL/Doan/ShiftRows.v
-!i122 41
+!i122 206
 L0 1 12
 R4
 r1
 !s85 0
 31
-Z9 !s108 1774517467.000000
+R5
 !s107 E:/work/HDL/Doan/ShiftRows.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/ShiftRows.v|
 !i113 1
 R6
 R7
 vshift_rows_tb
-R8
+R0
 !i10b 1
 !s100 iNZaAfzJ4R6I1hh_:QkUE3
 R1
@@ -135,15 +183,153 @@ R3
 w1774517367
 8E:/work/HDL/Doan/ShiftRows_tb.v
 FE:/work/HDL/Doan/ShiftRows_tb.v
-!i122 42
-L0 1 15
+!i122 207
+Z8 L0 1 15
 R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 E:/work/HDL/Doan/ShiftRows_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/ShiftRows_tb.v|
+!i113 1
+R6
+R7
+vsub_bytes
+R0
+!i10b 1
+!s100 aD8dm7_PZ;^zIQS94h_<K0
+R1
+I]32ILc1dEX=T7HDN^MKgz0
+R2
+R3
+w1775137413
+8E:/work/HDL/Doan/SubBytes.v
+FE:/work/HDL/Doan/SubBytes.v
+!i122 208
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/SubBytes.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/SubBytes.v|
+!i113 1
+R6
+R7
+vsub_bytes_tb
+R0
+!i10b 1
+!s100 i:38PH>mW^_KV0BgI>Lec2
+R1
+Inl8Z>6MA63f@>>MR?LbbD0
+R2
+R3
+w1775137461
+8E:/work/HDL/Doan/SubBytes_tb.v
+FE:/work/HDL/Doan/SubBytes_tb.v
+!i122 209
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/SubBytes_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/SubBytes_tb.v|
+!i113 1
+R6
+R7
+vtb_top_pipelined
+!s110 1777942595
+!i10b 1
+!s100 OP=T=5ijMijeC44^Z8Z?=0
+R1
+I<?Wz<WDE54S8g@2>_Oba_0
+R2
+R3
+w1777942585
+8E:/work/HDL/Doan/tb_aes_pipelined.v
+FE:/work/HDL/Doan/tb_aes_pipelined.v
+!i122 174
+L0 1 50
+R4
+r1
+!s85 0
+31
+!s108 1777942595.000000
+!s107 E:/work/HDL/Doan/tb_aes_pipelined.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/tb_aes_pipelined.v|
+!i113 1
+R6
+R7
+vtop
+R0
+!i10b 1
+!s100 L:Z8[ImMW]N:e>>Hog[@D1
+R1
+I4:EAg_0VZ1cklK_bDd6B60
+R2
+R3
+w1775916503
+8E:/work/HDL/Doan/top.v
+FE:/work/HDL/Doan/top.v
+!i122 210
+L0 1 152
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/top.v|
+!i113 1
+R6
+R7
+vtop_pipelined
+!s110 1778548987
+!i10b 1
+!s100 a2i]gcLY8iOl^6I7f[_b^1
+R1
+IQmm<D]QB85BYlU_mbcTTU3
+R2
+R3
+w1777941513
+8E:/work/HDL/Doan/top_pipelined.v
+FE:/work/HDL/Doan/top_pipelined.v
+!i122 189
+L0 1 142
+R4
+r1
+!s85 0
+31
+!s108 1778548987.000000
+!s107 E:/work/HDL/Doan/top_pipelined.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/top_pipelined.v|
+!i113 1
+R6
+R7
+vtop_tb
+R0
+!i10b 1
+!s100 E1U]m4O8BkUU?>O60;G2@1
+R1
+I09Ho`EXf9JPTQUn`mgVhZ1
+R2
+R3
+w1778552583
+8E:/work/HDL/Doan/top_tb.v
+FE:/work/HDL/Doan/top_tb.v
+!i122 211
+L0 1 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/work/HDL/Doan/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/HDL/Doan/top_tb.v|
 !i113 1
 R6
 R7

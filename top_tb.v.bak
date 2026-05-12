@@ -1,0 +1,23 @@
+module top_tb;
+reg clk;
+reg [255:0] key;
+reg [127:0] plaintext;
+wire [127:0] ciphertext;
+top t(
+    .clk(clk),
+    .key(key),
+    .plaintext(plaintext),
+    .ciphertext(ciphertext)
+);
+initial begin
+    clk = 0;
+    key = 256'h000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f;
+    plaintext = 128'h00112233445566778899aabbccddeeff;
+    #160; // Wait for 16 clock cycles to complete encryption
+    $display("Key: %h", key);
+    $display("Plaintext: %h", plaintext);
+    $display("Ciphertext: %h", ciphertext);
+
+end
+always #5 clk = ~clk;
+endmodule
