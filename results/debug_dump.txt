@@ -1,0 +1,1111 @@
+===============
+Testcase 0: PASS
+index: 0
+type:                 nist
+key: 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+plaintext: 00112233445566778899aabbccddeeff
+expected: 8ea2b7ca516745bfeafc49904b496089
+got: 8ea2b7ca516745bfeafc49904b496089
+pass: 1
+sau_khi_decrypt: 00112233445566778899aabbccddeeff
+===========
+===============
+Testcase 2: PASS
+index: 2
+type:               random
+key: 52f22665a60c12d289185d950ee8813609166f6b113d178d6c0fd3901ff239a1
+plaintext: a095f20f9395650cf9380b8edb224a6b
+expected: 7e3b8edd008da42b9e1499a5cbbbe67e
+got: 7e3b8edd008da42b9e1499a5cbbbe67e
+pass: 1
+sau_khi_decrypt: a095f20f9395650cf9380b8edb224a6b
+===========
+===============
+Testcase 3: PASS
+index: 3
+type:               random
+key: 248a1e924e8fd0ae2e1a9492a3305f188cb610900f9e347fae886dc6507795ec
+plaintext: 745c4c3fcb2eb2c73e14934c867ee057
+expected: 4f479c74ed11892a4af8ec51572b5d29
+got: 4f479c74ed11892a4af8ec51572b5d29
+pass: 1
+sau_khi_decrypt: 745c4c3fcb2eb2c73e14934c867ee057
+===========
+===============
+Testcase 4: PASS
+index: 4
+type:               random
+key: ba72499bfa121e836b2ac15726ee7d6b0af6ab13c38e92cae0d15057b159987f
+plaintext: 94cc7411d717f14579b2aa100fbbb34f
+expected: 3a67e2e23681b3769b4f2e914507cc3c
+got: 3a67e2e23681b3769b4f2e914507cc3c
+pass: 1
+sau_khi_decrypt: 94cc7411d717f14579b2aa100fbbb34f
+===========
+===============
+Testcase 5: PASS
+index: 5
+type:               random
+key: a593feaed27248b762e3ab5805f0765a2b9c1d7e0f37c44921bd3f6564eadf7f
+plaintext: 142a72668c47e223d16edd8c47b46afc
+expected: e5f0a6f81cc02fef1c905af85a0bebac
+got: e5f0a6f81cc02fef1c905af85a0bebac
+pass: 1
+sau_khi_decrypt: 142a72668c47e223d16edd8c47b46afc
+===========
+===============
+Testcase 6: PASS
+index: 6
+type:               random
+key: 5baee261f53b26152d263ba83b037cd4962e434801256b885e9c9051f320b0db
+plaintext: 83f39ea7adbd0d74e6dec7f3dfaecc8f
+expected: 063ea75ee7629dd9838a1b02e2643753
+got: 063ea75ee7629dd9838a1b02e2643753
+pass: 1
+sau_khi_decrypt: 83f39ea7adbd0d74e6dec7f3dfaecc8f
+===========
+===============
+Testcase 7: PASS
+index: 7
+type:               random
+key: 646566641a7ba2660f3011fc3570291c57990d1a0091268919f25d9d0612df35
+plaintext: 9d6026a240f4589a5d791f1dd97cfefa
+expected: 369eb1e8ad439a6972eeb834c2558a49
+got: 369eb1e8ad439a6972eeb834c2558a49
+pass: 1
+sau_khi_decrypt: 9d6026a240f4589a5d791f1dd97cfefa
+===========
+===============
+Testcase 8: PASS
+index: 8
+type:               random
+key: 777a7b4f15241abf57bd437ad4b129840534f3f3875c25b08bea06c2874cfaa4
+plaintext: dd17b2d842845de82a5bc539888ac780
+expected: 538d3b257deb7854a0f428da24c1fb35
+got: 538d3b257deb7854a0f428da24c1fb35
+pass: 1
+sau_khi_decrypt: dd17b2d842845de82a5bc539888ac780
+===========
+===============
+Testcase 9: PASS
+index: 9
+type:               random
+key: 54a2399ccfc9fcc2da31ce3dd166bdcd3a33847e5bbb07fd07ca47784231b19a
+plaintext: f45872ceefb9fc59f4f95d14381a3a78
+expected: de21871e3ebc25d5a6de0151622a7ea1
+got: de21871e3ebc25d5a6de0151622a7ea1
+pass: 1
+sau_khi_decrypt: f45872ceefb9fc59f4f95d14381a3a78
+===========
+===============
+Testcase 10: PASS
+index: 10
+type:               random
+key: 3256347b9ffce69cd7007ae8a758cca415d5a91ee863c8b6c0337ae32d6fcaa2
+plaintext: 5516cdf2f8b8657666bef215b9282bfe
+expected: 6b1746e2a58f0c4a207ea50ec6efd267
+got: 6b1746e2a58f0c4a207ea50ec6efd267
+pass: 1
+sau_khi_decrypt: 5516cdf2f8b8657666bef215b9282bfe
+===========
+===============
+Testcase 11: PASS
+index: 11
+type:               random
+key: 20072697e777cea7259cd398fa79a8ef59278c8c210503ccf8b9a61a86bfef23
+plaintext: 6ffcdf31d3df360740364a803dc39653
+expected: b443d238d3eadbd12b0f2551f60dce93
+got: b443d238d3eadbd12b0f2551f60dce93
+pass: 1
+sau_khi_decrypt: 6ffcdf31d3df360740364a803dc39653
+===========
+===============
+Testcase 12: PASS
+index: 12
+type:               random
+key: 428b6bd5210fe8bd5ae575a995d0e7846bd3eae080218826868204df70c62e9b
+plaintext: 01c6cc262c24799eb91e8e0f53ae8487
+expected: 20c557d10e4802fb05c44e50d65e86b1
+got: 20c557d10e4802fb05c44e50d65e86b1
+pass: 1
+sau_khi_decrypt: 01c6cc262c24799eb91e8e0f53ae8487
+===========
+===============
+Testcase 13: PASS
+index: 13
+type:               random
+key: 8e7bc8c61be28f0e3f30460ac51981738f07c2e4e91071539cf9819b8333b146
+plaintext: 738288ce7a81f13fb285e0e0f1ed42ec
+expected: a079af20a805fcb03bab30f5e30a36f1
+got: a079af20a805fcb03bab30f5e30a36f1
+pass: 1
+sau_khi_decrypt: 738288ce7a81f13fb285e0e0f1ed42ec
+===========
+===============
+Testcase 14: PASS
+index: 14
+type:               random
+key: 8fe4f133d772236a1f64715012ab3d6d1236ab4dc81fe5c627f0b7a4a95d2440
+plaintext: e223f77738bff31865e27c29fdaad539
+expected: 821d8c131163c5192ffdb45c4b441c89
+got: 821d8c131163c5192ffdb45c4b441c89
+pass: 1
+sau_khi_decrypt: e223f77738bff31865e27c29fdaad539
+===========
+===============
+Testcase 15: PASS
+index: 15
+type:               random
+key: 29b46efe8367566b325b5117b85d04568d7570b4046254849f4b83f5101cfceb
+plaintext: c93af8e01a1543450ae7c72e45c121d1
+expected: 23cc8625522e4c018ea284e92e8ad0e4
+got: 23cc8625522e4c018ea284e92e8ad0e4
+pass: 1
+sau_khi_decrypt: c93af8e01a1543450ae7c72e45c121d1
+===========
+===============
+Testcase 16: PASS
+index: 16
+type:               random
+key: 6cd9e9add1f242672689eb83927eb35316470eccb02e6ce51244f004a216cd42
+plaintext: 159bdb381143dc1f740256fe8d6aedea
+expected: f895cda56654207147552472997d73f8
+got: f895cda56654207147552472997d73f8
+pass: 1
+sau_khi_decrypt: 159bdb381143dc1f740256fe8d6aedea
+===========
+===============
+Testcase 17: PASS
+index: 17
+type:               random
+key: 449f210b86b53df01cf829430c2e33ee4fa04e87c2344a7280ac2d4558cd04fe
+plaintext: 40090304bb818dfa3083793eef721ba8
+expected: 43a35a86165ba0950899df6f2fb29ded
+got: 43a35a86165ba0950899df6f2fb29ded
+pass: 1
+sau_khi_decrypt: 40090304bb818dfa3083793eef721ba8
+===========
+===============
+Testcase 18: PASS
+index: 18
+type:               random
+key: d1a66ea87e8bd5e364f8814eb037fb3a5732d5e1b4baa22367fd58fb0dd62103
+plaintext: 12a0bde1416e290e15aad761de81abf8
+expected: c00387b59d88a267eb29b206ebf88239
+got: c00387b59d88a267eb29b206ebf88239
+pass: 1
+sau_khi_decrypt: 12a0bde1416e290e15aad761de81abf8
+===========
+===============
+Testcase 19: PASS
+index: 19
+type:               random
+key: 48993eb14b0b752f28447200435df654f8fc8c523e08f7e14f375b2e00556115
+plaintext: 794780a7333f81c6011743d116246696
+expected: 72b9cb09aa892dd37cad5f57a3fcd913
+got: 72b9cb09aa892dd37cad5f57a3fcd913
+pass: 1
+sau_khi_decrypt: 794780a7333f81c6011743d116246696
+===========
+===============
+Testcase 20: PASS
+index: 20
+type:               random
+key: 0a64054c4da13b1595f587dac027a8e4b7c8e19863c353b8fc7e2648b99ea425
+plaintext: 0bd3d5b7e483a06dbbb3cf8123e886c0
+expected: a21f83d8b07b339faca5dc0e5c333b4b
+got: a21f83d8b07b339faca5dc0e5c333b4b
+pass: 1
+sau_khi_decrypt: 0bd3d5b7e483a06dbbb3cf8123e886c0
+===========
+===============
+Testcase 21: PASS
+index: 21
+type:               random
+key: 8191d5d0cd04d3af95cce4b6aef4b1a43a15070a22a35cf51a60d5738e0ca004
+plaintext: a088ae3e7d430074cc11bfee80e58917
+expected: 8b59c407cdba6ca70f906d4a39099437
+got: 8b59c407cdba6ca70f906d4a39099437
+pass: 1
+sau_khi_decrypt: a088ae3e7d430074cc11bfee80e58917
+===========
+===============
+Testcase 22: PASS
+index: 22
+type:               random
+key: a88610bebc7940cf13d8433cbac1343bbda6f9757ed861137ae9af49c40b9da1
+plaintext: a4321399255441a6beb14d9f9122037b
+expected: bca391269915a56dd35b6012e2978059
+got: bca391269915a56dd35b6012e2978059
+pass: 1
+sau_khi_decrypt: a4321399255441a6beb14d9f9122037b
+===========
+===============
+Testcase 23: PASS
+index: 23
+type:               random
+key: 0f7c44f8ac19b137ac7d4ab58449767777c41efee48c334ffa15ef79044a7513
+plaintext: d181f7fe73fe446335eaf2ee35139417
+expected: e11af4c65bae872009bf2c85b91f3177
+got: e11af4c65bae872009bf2c85b91f3177
+pass: 1
+sau_khi_decrypt: d181f7fe73fe446335eaf2ee35139417
+===========
+===============
+Testcase 24: PASS
+index: 24
+type:               random
+key: 24bf8643f35c219ad1a18247e31cb45d3b7fe5e07c64062800f37dae73674dba
+plaintext: 246a5860501ed7540053c056d6651ef0
+expected: 600173ed45ef398808ef5b5f7649bbc6
+got: 600173ed45ef398808ef5b5f7649bbc6
+pass: 1
+sau_khi_decrypt: 246a5860501ed7540053c056d6651ef0
+===========
+===============
+Testcase 25: PASS
+index: 25
+type:               random
+key: ed32b603e6bd4a405f106463ffde96135cec6dc146da0c471a0dd5a949a2ef26
+plaintext: 3ff8446f825030c55fc8f46de207cfc2
+expected: 9c5975ddd97141d188ba017ce6c7fda6
+got: 9c5975ddd97141d188ba017ce6c7fda6
+pass: 1
+sau_khi_decrypt: 3ff8446f825030c55fc8f46de207cfc2
+===========
+===============
+Testcase 26: PASS
+index: 26
+type:               random
+key: a166e9e0f08d8c34b8140ceebb69739dc023a4de497c0ce9ed8c202b786a5748
+plaintext: 4c41bdbdf9a74267a73d4d7b8eab641e
+expected: db418ca0d3e63c9665b7f1e439824752
+got: db418ca0d3e63c9665b7f1e439824752
+pass: 1
+sau_khi_decrypt: 4c41bdbdf9a74267a73d4d7b8eab641e
+===========
+===============
+Testcase 27: PASS
+index: 27
+type:               random
+key: 2aa429133580e7cf7f8c3873e855ffc2736d238c313e172c578e17513d5e42cf
+plaintext: 9133e305bfde696269be8635604556c0
+expected: 39539c1a3d51726578c7176e8295db7e
+got: 39539c1a3d51726578c7176e8295db7e
+pass: 1
+sau_khi_decrypt: 9133e305bfde696269be8635604556c0
+===========
+===============
+Testcase 28: PASS
+index: 28
+type:               random
+key: 0f7f4793f75c20af8087a1cadcd9371745e53f6266a5726ef44fd9d0dff70520
+plaintext: 086cb5c3e5cd79f7967d001264eeeded
+expected: d2e66cbd26a5a8935bee7f8f925b0c2c
+got: d2e66cbd26a5a8935bee7f8f925b0c2c
+pass: 1
+sau_khi_decrypt: 086cb5c3e5cd79f7967d001264eeeded
+===========
+===============
+Testcase 29: PASS
+index: 29
+type:               random
+key: d387da77f8723fc81b39272685f8ae1bf1d3b8b3a5d8c3e575158dc60a00c820
+plaintext: 3b91eb09a5b74df620a04087a26fb2c3
+expected: 25dad12a33dc32c0ec49c30a8205e737
+got: 25dad12a33dc32c0ec49c30a8205e737
+pass: 1
+sau_khi_decrypt: 3b91eb09a5b74df620a04087a26fb2c3
+===========
+===============
+Testcase 30: PASS
+index: 30
+type:               random
+key: 1c19124c86f19531634239ca990002894dff7547f550a5d6e23e79863c8c3f07
+plaintext: f569b4a64e0e05317fe2aca56b14413a
+expected: 13848b4796eee65e2c0b3257efd39049
+got: 13848b4796eee65e2c0b3257efd39049
+pass: 1
+sau_khi_decrypt: f569b4a64e0e05317fe2aca56b14413a
+===========
+===============
+Testcase 31: PASS
+index: 31
+type:               random
+key: aa6cec5e3a7e08b256b76b5cae653201cc4abdd88111347ef8334fc4d1313b77
+plaintext: 3843c2e34b1bf39f7e9c2fe5397c6ae9
+expected: ed1aaae036c68a40cdff5f251f96a8fd
+got: ed1aaae036c68a40cdff5f251f96a8fd
+pass: 1
+sau_khi_decrypt: 3843c2e34b1bf39f7e9c2fe5397c6ae9
+===========
+===============
+Testcase 32: PASS
+index: 32
+type:               random
+key: aa0ef29825ec640d3606f998246a0db50f2f6473e5b6e250bb1cff14ee2a5430
+plaintext: 2fa7ef86bf77084faab960d65ffc5471
+expected: 3db671a1a09645afaba3bba3817d8ed7
+got: 3db671a1a09645afaba3bba3817d8ed7
+pass: 1
+sau_khi_decrypt: 2fa7ef86bf77084faab960d65ffc5471
+===========
+===============
+Testcase 33: PASS
+index: 33
+type:               random
+key: 2b1b00144714596bf4e21f8ff6c235615bc4d24fd2cd6e160cb479325f8aeb72
+plaintext: 31525dbce57907a1693fcfa0c4670a60
+expected: 1503a766077307bb39c0e9aa8db68d95
+got: 1503a766077307bb39c0e9aa8db68d95
+pass: 1
+sau_khi_decrypt: 31525dbce57907a1693fcfa0c4670a60
+===========
+===============
+Testcase 34: PASS
+index: 34
+type:               random
+key: 087610cdeb0f4131bf10e69b565c4555f5f49d0b43bfb7b051ec464c00b8c198
+plaintext: eacea2f2f11006d33b1b79b7f477f4c6
+expected: 808d36b61daa4b687b99eabc8c1b4606
+got: 808d36b61daa4b687b99eabc8c1b4606
+pass: 1
+sau_khi_decrypt: eacea2f2f11006d33b1b79b7f477f4c6
+===========
+===============
+Testcase 35: PASS
+index: 35
+type:               random
+key: 62ca40e96ed07e21ed7f2e02cdeebd4dd2b1c5269b3c53dc51755cc8c8981483
+plaintext: 3264c0283f6810a6087b8d8b5329fa6d
+expected: 805fa6877e70ea17c80c9f0dd67722dd
+got: 805fa6877e70ea17c80c9f0dd67722dd
+pass: 1
+sau_khi_decrypt: 3264c0283f6810a6087b8d8b5329fa6d
+===========
+===============
+Testcase 36: PASS
+index: 36
+type:               random
+key: e21afc12439f1535186b7ffdb5f8722c3b226a759ee4ac3cbf89d8c6aac21fc7
+plaintext: d74b4b4791445f41bc4232703f2f3e3c
+expected: eff8ebfe2e5042c3b11352f4fe59ab29
+got: eff8ebfe2e5042c3b11352f4fe59ab29
+pass: 1
+sau_khi_decrypt: d74b4b4791445f41bc4232703f2f3e3c
+===========
+===============
+Testcase 37: PASS
+index: 37
+type:               random
+key: 2748e2e8943053106540fe3e81863ba6ce19a776fd091a0179e2d13bd772ea5f
+plaintext: 0ae04b3b1e0c3099f9d39531ee135f83
+expected: d0e28abb4f048bc83554ace5b5ef7f14
+got: d0e28abb4f048bc83554ace5b5ef7f14
+pass: 1
+sau_khi_decrypt: 0ae04b3b1e0c3099f9d39531ee135f83
+===========
+===============
+Testcase 38: PASS
+index: 38
+type:               random
+key: dd2d729a42c6c7aaf2011ba398b59e5937095e57240b34ff410999bba6e934d0
+plaintext: 02d15368ad5f2f9e4f133408cb7e8c7b
+expected: 2e750527222e72377793f0d9bdbb4d62
+got: 2e750527222e72377793f0d9bdbb4d62
+pass: 1
+sau_khi_decrypt: 02d15368ad5f2f9e4f133408cb7e8c7b
+===========
+===============
+Testcase 39: PASS
+index: 39
+type:               random
+key: 106819cb65a98c27a38817a72965b24568fc48aa4e6af40d4fbe91e25b6a6a04
+plaintext: ddc4ffcd5da43264ba6734f1016fe628
+expected: f157718eab2d7611483f32a1dbd49070
+got: f157718eab2d7611483f32a1dbd49070
+pass: 1
+sau_khi_decrypt: ddc4ffcd5da43264ba6734f1016fe628
+===========
+===============
+Testcase 40: PASS
+index: 40
+type:               random
+key: 6c1dd2176793e25d75c52921030d8d24a4cee86516929fed5ebc812b25594829
+plaintext: 852bec111b627dc0cecaf7ce324d20d6
+expected: 080d8f26027a727422a5f81c8fea89e2
+got: 080d8f26027a727422a5f81c8fea89e2
+pass: 1
+sau_khi_decrypt: 852bec111b627dc0cecaf7ce324d20d6
+===========
+===============
+Testcase 41: PASS
+index: 41
+type:               random
+key: f10bf9e97b500d9beda26316e7b69eb0d3e429a3c9db389e679dd832d4792e90
+plaintext: 370a66f08428625b1f263ff8b9d0e531
+expected: 80d48a30b30c693cde825cbd01ab1ec4
+got: 80d48a30b30c693cde825cbd01ab1ec4
+pass: 1
+sau_khi_decrypt: 370a66f08428625b1f263ff8b9d0e531
+===========
+===============
+Testcase 42: PASS
+index: 42
+type:               random
+key: 0ae28fd7c1ac09aad6521e6399748cd9a0c74ea66b4e953f6c63a85e7280702d
+plaintext: 05009efc7d773c72c39ec7d175d62dcf
+expected: 5f2405b7e16d0b04405b78eb05bbcde2
+got: 5f2405b7e16d0b04405b78eb05bbcde2
+pass: 1
+sau_khi_decrypt: 05009efc7d773c72c39ec7d175d62dcf
+===========
+===============
+Testcase 43: PASS
+index: 43
+type:               random
+key: 79661b11205b6e5d17cd718182a80a0aa22115ecbb50c7b882140dc081e560a7
+plaintext: f3c82206db10ff9dbbb1d01c3121fbe2
+expected: 7c3aa144efcc31e3442d532ef55eb83e
+got: 7c3aa144efcc31e3442d532ef55eb83e
+pass: 1
+sau_khi_decrypt: f3c82206db10ff9dbbb1d01c3121fbe2
+===========
+===============
+Testcase 44: PASS
+index: 44
+type:               random
+key: 7d49f4cfeacb2aafc9b8ee3810d5599cc1402852e59d46e7d074244180f6eb7a
+plaintext: 3597439d813c515f09322e6729a2ef47
+expected: e066bf7edb195f755f9335c7d07ac52b
+got: e066bf7edb195f755f9335c7d07ac52b
+pass: 1
+sau_khi_decrypt: 3597439d813c515f09322e6729a2ef47
+===========
+===============
+Testcase 45: PASS
+index: 45
+type:               random
+key: ad53e5602bcac8431dc4870ca2db5cf7df738e8594b0e1e51a40fe89a1db64bc
+plaintext: cc5f4360fd5e93255c54c314713a2d9d
+expected: c8a106f50f4bb6f51e58c028c97326fe
+got: c8a106f50f4bb6f51e58c028c97326fe
+pass: 1
+sau_khi_decrypt: cc5f4360fd5e93255c54c314713a2d9d
+===========
+===============
+Testcase 46: PASS
+index: 46
+type:               random
+key: bef50c4bd184404fa3f7fbde95eda9e550bb00bf0838264a9da06e6a835de50c
+plaintext: 217d3a9ca70b050d00915a4d1b855b88
+expected: 49e8a250faea474baa06f986e2dd187d
+got: 49e8a250faea474baa06f986e2dd187d
+pass: 1
+sau_khi_decrypt: 217d3a9ca70b050d00915a4d1b855b88
+===========
+===============
+Testcase 47: PASS
+index: 47
+type:               random
+key: 3969954d9622345d9fd479282203efcd3eb526731810a325dfaac84566cf43f7
+plaintext: 020ea5d28fe45998a594719aef84bb7e
+expected: 2d1540fb03051a32fdb6e5076f75733d
+got: 2d1540fb03051a32fdb6e5076f75733d
+pass: 1
+sau_khi_decrypt: 020ea5d28fe45998a594719aef84bb7e
+===========
+===============
+Testcase 48: PASS
+index: 48
+type:               random
+key: 3f2ae7000b0f8806672f3c280ee9c71a039c8da8f032246933849ba481a5a46a
+plaintext: d09c2c824f104ca00cfee3b9c87ab789
+expected: 1b64b4bd81ab2d82fb4fe8572c7671c0
+got: 1b64b4bd81ab2d82fb4fe8572c7671c0
+pass: 1
+sau_khi_decrypt: d09c2c824f104ca00cfee3b9c87ab789
+===========
+===============
+Testcase 49: PASS
+index: 49
+type:               random
+key: 0160d86fbee97714bda7732c39ff1a423ba4091f55e4bfecb1f1d843b60d44a2
+plaintext: 8dad6fafc9ea85f8434ba4edf7e43715
+expected: 1dc4b4359cda2e86a3cff0ee56e5b89e
+got: 1dc4b4359cda2e86a3cff0ee56e5b89e
+pass: 1
+sau_khi_decrypt: 8dad6fafc9ea85f8434ba4edf7e43715
+===========
+===============
+Testcase 50: PASS
+index: 50
+type:               random
+key: e181032b42e73cd7be33f128bfea5331e16354993d61e8daa1ebb1fbaad7fa89
+plaintext: 7878d687b201db066ff4b93b92e24eca
+expected: ca0287a06d17c6a15c7c195f6a8916aa
+got: ca0287a06d17c6a15c7c195f6a8916aa
+pass: 1
+sau_khi_decrypt: 7878d687b201db066ff4b93b92e24eca
+===========
+===============
+Testcase 51: PASS
+index: 51
+type:               random
+key: 36649f951390e92b2508061c1b9fed2958fa24b307070a23b1a4a20ab211bc0b
+plaintext: 10db97c35d33d1f4d188e4aa10e1dec1
+expected: 294ea6930cfd3c6222c8bf59058b97a1
+got: 294ea6930cfd3c6222c8bf59058b97a1
+pass: 1
+sau_khi_decrypt: 10db97c35d33d1f4d188e4aa10e1dec1
+===========
+===============
+Testcase 52: PASS
+index: 52
+type:               random
+key: eab6f1621b3f34341c0808f3d9e9cfc0a216d3c0a1a1497a192119cac1a5344b
+plaintext: 51566c42055941ee480cb7c25ee952c4
+expected: bcd2f71fc94ec5bcda6badec62a49fdc
+got: bcd2f71fc94ec5bcda6badec62a49fdc
+pass: 1
+sau_khi_decrypt: 51566c42055941ee480cb7c25ee952c4
+===========
+===============
+Testcase 53: PASS
+index: 53
+type:               random
+key: f69a8079d9499ebe07c969076f84c5195878b40c899037b6dcd31793d1492b6f
+plaintext: 00863349c3c0fa0d01597d187db1cbd3
+expected: d45aad7a61a15021ebd68676de6d41f9
+got: d45aad7a61a15021ebd68676de6d41f9
+pass: 1
+sau_khi_decrypt: 00863349c3c0fa0d01597d187db1cbd3
+===========
+===============
+Testcase 54: PASS
+index: 54
+type:               random
+key: 2ff77e9758f5d4834293f12848d036f0b33b7f2a1cf0a2c4147dc9fdb28fc91a
+plaintext: a0535b1866ed65e4e3be166ce3a5065f
+expected: d3dde659dd253d0b9564d56f22e11102
+got: d3dde659dd253d0b9564d56f22e11102
+pass: 1
+sau_khi_decrypt: a0535b1866ed65e4e3be166ce3a5065f
+===========
+===============
+Testcase 55: PASS
+index: 55
+type:               random
+key: 344d436de68b802b61fbe2a13bf175208898c1b0c09aa5085994538527ded773
+plaintext: a98dbd522b7670b0c541943b205576a4
+expected: b3447e85c5163a1c716f8ecefeae9e06
+got: b3447e85c5163a1c716f8ecefeae9e06
+pass: 1
+sau_khi_decrypt: a98dbd522b7670b0c541943b205576a4
+===========
+===============
+Testcase 56: PASS
+index: 56
+type:               random
+key: e2b23c8131444dc1b4d3d79e27b927f93fb9539a8559293c53f43042f9f4bafe
+plaintext: 1a2af6a81a326226fb25cb4dbb4c6f46
+expected: ee8dfa9584412df3e1cdea0d9778c42d
+got: ee8dfa9584412df3e1cdea0d9778c42d
+pass: 1
+sau_khi_decrypt: 1a2af6a81a326226fb25cb4dbb4c6f46
+===========
+===============
+Testcase 57: PASS
+index: 57
+type:               random
+key: 321ba3e91b4734e26376080366daca6fb13880fba14b760524419abc6701bd3e
+plaintext: e8da6eb39296bfa56bd83aaab8a7e1e0
+expected: a0903a72c1d3f9340d9605599bd209f7
+got: a0903a72c1d3f9340d9605599bd209f7
+pass: 1
+sau_khi_decrypt: e8da6eb39296bfa56bd83aaab8a7e1e0
+===========
+===============
+Testcase 58: PASS
+index: 58
+type:               random
+key: c6a4b395da3aad2ea41f746e5042a0b319e56b3ec866b6b6a12840d96c7b7405
+plaintext: 9fdb6884aca9eedf2ee4a753c70263d4
+expected: e4372930261b4e65f29da5b09dfa8963
+got: e4372930261b4e65f29da5b09dfa8963
+pass: 1
+sau_khi_decrypt: 9fdb6884aca9eedf2ee4a753c70263d4
+===========
+===============
+Testcase 59: PASS
+index: 59
+type:               random
+key: 7de8f91b09408b3729b7c8f3f033845919d893748a34b7798304a3cad45e8557
+plaintext: 69bdf27435fdaf2f6483c3ee1fbafc9d
+expected: 3a43d4ff1a0fb244a3f639b3bc7e7e52
+got: 3a43d4ff1a0fb244a3f639b3bc7e7e52
+pass: 1
+sau_khi_decrypt: 69bdf27435fdaf2f6483c3ee1fbafc9d
+===========
+===============
+Testcase 60: PASS
+index: 60
+type:               random
+key: 5ba30e404661660f03136bea6ba0b2ac5a94431b394dbd66f0f486f838fecdf5
+plaintext: 6476362a21edc611cfcca23178a48fb8
+expected: 7bb0d7e40569d64725b6cfc979dbc3b2
+got: 7bb0d7e40569d64725b6cfc979dbc3b2
+pass: 1
+sau_khi_decrypt: 6476362a21edc611cfcca23178a48fb8
+===========
+===============
+Testcase 61: PASS
+index: 61
+type:               random
+key: 39d0f6255aaaa3d4d1cbd06977ff4bc28ca620c7d5785ac8d93a44b460af40fb
+plaintext: 6dad2f7b00ceb8cc475b3ea74d527a7c
+expected: 79595127f938411eda4fc59deca0b10b
+got: 79595127f938411eda4fc59deca0b10b
+pass: 1
+sau_khi_decrypt: 6dad2f7b00ceb8cc475b3ea74d527a7c
+===========
+===============
+Testcase 62: PASS
+index: 62
+type:               random
+key: 6d9fa315a8e55c27ed4dda620e15d390e753c8f12387d458a29503a80235f312
+plaintext: a74b409b199424da3b2fc67358c82735
+expected: 37eccc95dbded79465dc2d663e732296
+got: 37eccc95dbded79465dc2d663e732296
+pass: 1
+sau_khi_decrypt: a74b409b199424da3b2fc67358c82735
+===========
+===============
+Testcase 63: PASS
+index: 63
+type:               random
+key: e767ca882a9ce4b09bfac817abe6e48cc9a2d64c327eb1368714bdd670abe11d
+plaintext: 8e1e436b3bd323797e8e0e7b77e724b3
+expected: 556e3feae00fae20f3b89a2ae9d24cc5
+got: 556e3feae00fae20f3b89a2ae9d24cc5
+pass: 1
+sau_khi_decrypt: 8e1e436b3bd323797e8e0e7b77e724b3
+===========
+===============
+Testcase 64: PASS
+index: 64
+type:               random
+key: 7d3f7f2a8a99dcbc0129d75277b2907faa4bd7775f6d6bfff5ad132ea35ca2a5
+plaintext: 07059c0baebceeff54cffb18827b7cc1
+expected: 53f63c15435bafaf332a2fe0dcded5a0
+got: 53f63c15435bafaf332a2fe0dcded5a0
+pass: 1
+sau_khi_decrypt: 07059c0baebceeff54cffb18827b7cc1
+===========
+===============
+Testcase 65: PASS
+index: 65
+type:               random
+key: e5240836b76aa0205618dca85d5779c7868dc5e935486f576c408d0dd34a4a5a
+plaintext: d37e675580fb45df8158f934a77eca1e
+expected: b03fb2f0e714f0f82e2d6dc567e1d13f
+got: b03fb2f0e714f0f82e2d6dc567e1d13f
+pass: 1
+sau_khi_decrypt: d37e675580fb45df8158f934a77eca1e
+===========
+===============
+Testcase 66: PASS
+index: 66
+type:               random
+key: 543151b64c2096f9a216c8ff0a66b98de2678b920c664c1b010b30d2eb799bc4
+plaintext: a80fc980e88b9c609d25a0acb2b098e0
+expected: 3319f0f26608eae039094db9a74d408a
+got: 3319f0f26608eae039094db9a74d408a
+pass: 1
+sau_khi_decrypt: a80fc980e88b9c609d25a0acb2b098e0
+===========
+===============
+Testcase 67: PASS
+index: 67
+type:               random
+key: ae15360aaaa275a0c32c19a92ede096bc619eaeea7035edfd223c94f8fb542dc
+plaintext: 4d2f6b0851056e90a494efe90d7f9185
+expected: ecf51ec1939e241823bdd1f98c81b027
+got: ecf51ec1939e241823bdd1f98c81b027
+pass: 1
+sau_khi_decrypt: 4d2f6b0851056e90a494efe90d7f9185
+===========
+===============
+Testcase 68: PASS
+index: 68
+type:               random
+key: 0ad31ec6cf6b93b2eb67721103ae639897fef0a8fb2779c5698c1a15a47836e5
+plaintext: 26a0036d0102afab1ffcf7db1637de1f
+expected: ef42ba60c1c3d84fbf133edbbeeeeb10
+got: ef42ba60c1c3d84fbf133edbbeeeeb10
+pass: 1
+sau_khi_decrypt: 26a0036d0102afab1ffcf7db1637de1f
+===========
+===============
+Testcase 69: PASS
+index: 69
+type:               random
+key: 21780446b8913e73bbbe2fec0c5dc6bfb6b1db25bac2154ba08eb57f75abeee3
+plaintext: 41e9f60db708020f03e2a6afd19e1463
+expected: 34583463e2bfd66af3c04c56d2353da3
+got: 34583463e2bfd66af3c04c56d2353da3
+pass: 1
+sau_khi_decrypt: 41e9f60db708020f03e2a6afd19e1463
+===========
+===============
+Testcase 70: PASS
+index: 70
+type:               random
+key: 4f4fba992af5dcd57c9b0f505ef293ba7078ad2a25f7cc1d5cf4a529a1cd6a7a
+plaintext: 62c7c973f145c8c191554a470f9ff9a6
+expected: 15c2bb7ff6fb690358af8dd4e904e793
+got: 15c2bb7ff6fb690358af8dd4e904e793
+pass: 1
+sau_khi_decrypt: 62c7c973f145c8c191554a470f9ff9a6
+===========
+===============
+Testcase 71: PASS
+index: 71
+type:               random
+key: b4cdd39955de9bb9fa03d42699d54f956df9e33f6063af609ac5e53bce7348b0
+plaintext: 005243446c2896ebd0c3e3c80a49d524
+expected: 096d509aabb3fb33318a861d060510ef
+got: 096d509aabb3fb33318a861d060510ef
+pass: 1
+sau_khi_decrypt: 005243446c2896ebd0c3e3c80a49d524
+===========
+===============
+Testcase 72: PASS
+index: 72
+type:               random
+key: cfe3defe922546f9d9ccce8cafc6e97f5888158a8d7ccc6133c9c0b8eefb3b4f
+plaintext: 9b0ead6577b534ed4196c002ca62758a
+expected: 944c894215676790d6fe8d9a32a26ff0
+got: 944c894215676790d6fe8d9a32a26ff0
+pass: 1
+sau_khi_decrypt: 9b0ead6577b534ed4196c002ca62758a
+===========
+===============
+Testcase 73: PASS
+index: 73
+type:               random
+key: 1689ce5ac5103b659485e542e2d585527a819633303631172eceb34a5c93905b
+plaintext: 67c784db263f0becff7e5fdd1b5fa176
+expected: ba03ed76bbf1d6eb8663c9526d4d75ea
+got: ba03ed76bbf1d6eb8663c9526d4d75ea
+pass: 1
+sau_khi_decrypt: 67c784db263f0becff7e5fdd1b5fa176
+===========
+===============
+Testcase 74: PASS
+index: 74
+type:               random
+key: c914275098075847849b05180834fddedd907c96913642ecc7476d18f272c497
+plaintext: d19bf62141d7095633fe2e6015070d08
+expected: eb7b16076935ced5fab6fc3921464935
+got: eb7b16076935ced5fab6fc3921464935
+pass: 1
+sau_khi_decrypt: d19bf62141d7095633fe2e6015070d08
+===========
+===============
+Testcase 75: PASS
+index: 75
+type:               random
+key: 8e5edeb4757cf2d8e8e510dc99a365ec1eb4f5174151903ba416f4ebab81642e
+plaintext: 72d9285ef73cfdb8382c09f141f05a0f
+expected: bcaa8b359cc0bc44d8695fd8722788d0
+got: bcaa8b359cc0bc44d8695fd8722788d0
+pass: 1
+sau_khi_decrypt: 72d9285ef73cfdb8382c09f141f05a0f
+===========
+===============
+Testcase 76: PASS
+index: 76
+type:               random
+key: e78de707d6eb0c42c983b5bda5c2fc7b0e192551c101f032adbf4c969770c2a7
+plaintext: 1a78525f41631f5f7b612b703dce24ea
+expected: 58b36626007b8791039955539567922e
+got: 58b36626007b8791039955539567922e
+pass: 1
+sau_khi_decrypt: 1a78525f41631f5f7b612b703dce24ea
+===========
+===============
+Testcase 77: PASS
+index: 77
+type:               random
+key: ade40377b7e931cc0928edd53813ef9edd5fe3bf23c772f518eded62d705a013
+plaintext: 73f85652d23b7a1da05d245438bc0e2e
+expected: a597ad81b347147cf5c87d6bfc490a92
+got: a597ad81b347147cf5c87d6bfc490a92
+pass: 1
+sau_khi_decrypt: 73f85652d23b7a1da05d245438bc0e2e
+===========
+===============
+Testcase 78: PASS
+index: 78
+type:               random
+key: b6738de32570de26446b693f27064592d64b55cd2a427d1b5174e77b1d27fa83
+plaintext: 0ea1e5c9abec368f7ad5491e41c133f8
+expected: d5930d2bcc9d13d995da75347c169d8c
+got: d5930d2bcc9d13d995da75347c169d8c
+pass: 1
+sau_khi_decrypt: 0ea1e5c9abec368f7ad5491e41c133f8
+===========
+===============
+Testcase 79: PASS
+index: 79
+type:               random
+key: 5d6efd42ff3dec3c18634a6ae5290ed5b9fa4b24faa30471ce815782237100ca
+plaintext: d5f186492f5c6f0ae9683746922e23d7
+expected: e5f9c849c2d77e113f5a36e130f2f80d
+got: e5f9c849c2d77e113f5a36e130f2f80d
+pass: 1
+sau_khi_decrypt: d5f186492f5c6f0ae9683746922e23d7
+===========
+===============
+Testcase 80: PASS
+index: 80
+type:               random
+key: 2e85c53ab62c329914d416e39bbb7ec2462c34239cabb5a0cf31954e330210b1
+plaintext: bb8568d7b8ea0e84cf585548d7a3ddf2
+expected: 050b33b1cfc3a79e22695d419e2f15a5
+got: 050b33b1cfc3a79e22695d419e2f15a5
+pass: 1
+sau_khi_decrypt: bb8568d7b8ea0e84cf585548d7a3ddf2
+===========
+===============
+Testcase 81: PASS
+index: 81
+type:               random
+key: 7e170368e9c37a22dfaa443f2f90d4fc5d0929b35f9398db015b85ee72f78412
+plaintext: 1e5bb63ed1d4dde952c7b6de6193c0e5
+expected: 8799e6d08d332576b9a5182cd56f8bcc
+got: 8799e6d08d332576b9a5182cd56f8bcc
+pass: 1
+sau_khi_decrypt: 1e5bb63ed1d4dde952c7b6de6193c0e5
+===========
+===============
+Testcase 82: PASS
+index: 82
+type:               random
+key: 0f4adf1bf4bb7e72830687cd8922053ef716399e2e2a1a4f408ed1f4070418ed
+plaintext: b2bd314204d699a39376853db3711a59
+expected: e8b7e3901bac263f9b8be676d2b6fbf6
+got: e8b7e3901bac263f9b8be676d2b6fbf6
+pass: 1
+sau_khi_decrypt: b2bd314204d699a39376853db3711a59
+===========
+===============
+Testcase 83: PASS
+index: 83
+type:               random
+key: de18b72d0b451f777e9580c2471c1f1f67e2238a973adc3a25ab9276bf652af2
+plaintext: d304f0a263b16b98d69a860965f8f00d
+expected: a916565da09daf21b6666fbdd96af2b9
+got: a916565da09daf21b6666fbdd96af2b9
+pass: 1
+sau_khi_decrypt: d304f0a263b16b98d69a860965f8f00d
+===========
+===============
+Testcase 84: PASS
+index: 84
+type:               random
+key: c65c56663dd655b76fd7fb90cdfce952d066d88f0d538425f5aeef5a3fde6ca9
+plaintext: a1025d1b872f11536e3381ab0539236b
+expected: 49128b47b8b02717f2dcae36997da7cd
+got: 49128b47b8b02717f2dcae36997da7cd
+pass: 1
+sau_khi_decrypt: a1025d1b872f11536e3381ab0539236b
+===========
+===============
+Testcase 85: PASS
+index: 85
+type:               random
+key: f865c6ffef74a20bcffae2f9e20a08dda49e44eaad9f45a08aceec099f19401f
+plaintext: 85036f3cf30a491c4e58a52a1e0f98f5
+expected: bd03602362b3faee491c2c6aaa562700
+got: bd03602362b3faee491c2c6aaa562700
+pass: 1
+sau_khi_decrypt: 85036f3cf30a491c4e58a52a1e0f98f5
+===========
+===============
+Testcase 86: PASS
+index: 86
+type:               random
+key: f4eb83e64415779788ee25701f8221e24bea689349463ebc16bd8b49d6749cb1
+plaintext: 9138a662338cb55d75e48c4d9c7a78d1
+expected: ecb8f24a85110e3449d7e8e47ff5ce36
+got: ecb8f24a85110e3449d7e8e47ff5ce36
+pass: 1
+sau_khi_decrypt: 9138a662338cb55d75e48c4d9c7a78d1
+===========
+===============
+Testcase 87: PASS
+index: 87
+type:               random
+key: 4f073e553830838b62f8956503ec5a29dcf33d528e537d4548e0fc374b0ec505
+plaintext: 288d119bdf5970a80f8463d5705abcc3
+expected: 45e8581890d4d2d4dd6e798909b2d3dc
+got: 45e8581890d4d2d4dd6e798909b2d3dc
+pass: 1
+sau_khi_decrypt: 288d119bdf5970a80f8463d5705abcc3
+===========
+===============
+Testcase 88: PASS
+index: 88
+type:               random
+key: 1b8539fdf5adbdef276a56ab5a23ac339d9cd946d2d68418bddbbeecc2fe7944
+plaintext: c8a1b5a1eab42069de1a0169c48c951e
+expected: 240e81b03cd8359503305421c23473c9
+got: 240e81b03cd8359503305421c23473c9
+pass: 1
+sau_khi_decrypt: c8a1b5a1eab42069de1a0169c48c951e
+===========
+===============
+Testcase 89: PASS
+index: 89
+type:               random
+key: 7f65f6fe92266ad9c847df9f9b1c61da73b17549b95a4a5a64868e9862a55201
+plaintext: c9bed9fd7f61714c2f894dcd256f9360
+expected: 760c78013ba4b85b604ac06ebdd4734f
+got: 760c78013ba4b85b604ac06ebdd4734f
+pass: 1
+sau_khi_decrypt: c9bed9fd7f61714c2f894dcd256f9360
+===========
+===============
+Testcase 90: PASS
+index: 90
+type:               random
+key: 943b16d2eb5452f8d79bd63ef55334f86de4e9f402060c4190e57f4ceb89c64f
+plaintext: 899eff6f84d384baaf6e63765b0a98ad
+expected: 978e100ab89d7b3e21855066f7c3ada5
+got: 978e100ab89d7b3e21855066f7c3ada5
+pass: 1
+sau_khi_decrypt: 899eff6f84d384baaf6e63765b0a98ad
+===========
+===============
+Testcase 91: PASS
+index: 91
+type:               random
+key: 5973f202ad11863a19685f8066a68fed9227e130f66b7c6670c49fe6ff9657b1
+plaintext: 87bfd0172b5c515dfa13d34f832c1ca7
+expected: d1844a23a32d164f39826295f8045c4a
+got: d1844a23a32d164f39826295f8045c4a
+pass: 1
+sau_khi_decrypt: 87bfd0172b5c515dfa13d34f832c1ca7
+===========
+===============
+Testcase 92: PASS
+index: 92
+type:               random
+key: e44bb057d2effd82e3f86ba128864ad0823581e430692e0fa1909a1b5a91fea1
+plaintext: a2b90ab16902c9004eb5b08d01ea4d65
+expected: f0805c346d8731720dcab9fea24ff5e1
+got: f0805c346d8731720dcab9fea24ff5e1
+pass: 1
+sau_khi_decrypt: a2b90ab16902c9004eb5b08d01ea4d65
+===========
+===============
+Testcase 93: PASS
+index: 93
+type:               random
+key: d7199603ab07322c7fc48d9144dfa5e58883ff249332699a1f252884c2821b07
+plaintext: 19132bf2857dd2779c6ececc0fa603af
+expected: f17e2c8098593350b0f220a197a5132f
+got: f17e2c8098593350b0f220a197a5132f
+pass: 1
+sau_khi_decrypt: 19132bf2857dd2779c6ececc0fa603af
+===========
+===============
+Testcase 94: PASS
+index: 94
+type:               random
+key: c5945224b73c5a462b0844a019dbe7f295105931739f62050d38e36595c3f50b
+plaintext: 700d9e3d3f390b28ee96da2c5001e6dd
+expected: 746d5e27a023b7eef2c75248c86cb965
+got: 746d5e27a023b7eef2c75248c86cb965
+pass: 1
+sau_khi_decrypt: 700d9e3d3f390b28ee96da2c5001e6dd
+===========
+===============
+Testcase 95: PASS
+index: 95
+type:               random
+key: d0744d6b9a40f5e37efaf3113ead63acb79538694f66e0b67c05cade3e162c2b
+plaintext: 5b612f01f8e14a658f5c1d5588df6255
+expected: 6ae805734445e1ff95762e4adfd8e9d2
+got: 6ae805734445e1ff95762e4adfd8e9d2
+pass: 1
+sau_khi_decrypt: 5b612f01f8e14a658f5c1d5588df6255
+===========
+===============
+Testcase 96: PASS
+index: 96
+type:               random
+key: 67a610f61f6cd3e9598d3e63307748583c6f0847aa0657ce273db4211732458b
+plaintext: d5c9208e7177d6cbce3d285e5a37b867
+expected: 6583d09690228d51a08f65c66a8d4479
+got: 6583d09690228d51a08f65c66a8d4479
+pass: 1
+sau_khi_decrypt: d5c9208e7177d6cbce3d285e5a37b867
+===========
+===============
+Testcase 97: PASS
+index: 97
+type:               random
+key: 60a1f594354cf37981343adb73ac21f1b4ff4298e67096fd5e883f679b823620
+plaintext: dfc01fad83178ada45bcc5c36207a8b7
+expected: 7bf1c8c5788b47c21e6934acc6d1de52
+got: 7bf1c8c5788b47c21e6934acc6d1de52
+pass: 1
+sau_khi_decrypt: dfc01fad83178ada45bcc5c36207a8b7
+===========
+===============
+Testcase 98: PASS
+index: 98
+type:               random
+key: 91254f0363b516b12dc6d93b5230a9e41b118fe95cce80c24c3110b74f163949
+plaintext: 20d1b766485b67d8e876c6a0e1a0dcdc
+expected: 2ab2a19566e40d48d912121528f3c771
+got: 2ab2a19566e40d48d912121528f3c771
+pass: 1
+sau_khi_decrypt: 20d1b766485b67d8e876c6a0e1a0dcdc
+===========
+===============
+Testcase 99: PASS
+index: 99
+type:               random
+key: 21ef462d075dadcca9b059e56906a8b4b3763fffd8665ae7a0192e4a1d45e99b
+plaintext: bb38b6ad0a670a9b296e32c14d2761bd
+expected: cba44381b8ca2d32da53d1de3471b1e1
+got: cba44381b8ca2d32da53d1de3471b1e1
+pass: 1
+sau_khi_decrypt: bb38b6ad0a670a9b296e32c14d2761bd
+===========
+===============
+Testcase 100: PASS
+index: 100
+type:               random
+key: 0a8d4fa1a3f12d90d63a917fb78541ec6fabaf9359ef001cd5c3c6a749e60ae0
+plaintext: da959bb20cf93eae1c09ca5135c6ea58
+expected: 2c1a05273b9f0d901b07a0012a1ac283
+got: 2c1a05273b9f0d901b07a0012a1ac283
+pass: 1
+sau_khi_decrypt: da959bb20cf93eae1c09ca5135c6ea58
+===========
+===============
+Testcase 101: PASS
+index: 101
+type:               random
+key: bfe9166ab1be64ffbf9dd43847861759f2f36c71ee57b180bdb0d4d6a0a07382
+plaintext: 0dadb2346dac83d8edc7207dc3300bf3
+expected: c7819a57ead68532684a8192e2531ec5
+got: c7819a57ead68532684a8192e2531ec5
+pass: 1
+sau_khi_decrypt: 0dadb2346dac83d8edc7207dc3300bf3
+===========

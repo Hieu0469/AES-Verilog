@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue May 12 16:49:48 2026
+# Process ID: 9324
+# Current directory: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy
+# Command line: vivado.exe -mode batch -source D:\STUDY\HE_THONG_HDL\DO_AN\code\AES256_Copy\scripts\run_synth_impl.tcl -tclargs D:\STUDY\HE_THONG_HDL\DO_AN\code\AES256_Copy\project_1\project_1.xpr D:\STUDY\HE_THONG_HDL\DO_AN\code\AES256_Copy\results
+# Log file: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/vivado.log
+# Journal file: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy\vivado.jou
+# Running On: DESKTOP-DGP33K4, OS: Windows, CPU Frequency: 1596 MHz, CPU Physical cores: 2, Host memory: 17079 MB
+#-----------------------------------------------------------
+source {D:\STUDY\HE_THONG_HDL\DO_AN\code\AES256_Copy\scripts\run_synth_impl.tcl}
+# if {$argc < 2} {
+#     puts "Usage: run_synth_impl.tcl <project_xpr> <out_dir>"
+#     exit 2
+# }
+# set project_xpr [lindex $argv 0]
+# set out_dir [lindex $argv 1]
+# file mkdir $out_dir
+# open_project $project_xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 476.277 ; gain = 180.961
+# reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp with file D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.runs/synth_1
+
+# reset_run impl_1
+# launch_runs synth_1 -jobs 8
+[Tue May 12 16:50:16 2026] Launched synth_1...
+Run output will be captured here: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.runs/synth_1/runme.log
+# wait_on_run synth_1
+[Tue May 12 16:50:16 2026] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+[Tue May 12 16:50:41 2026] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:25 . Memory (MB): peak = 480.219 ; gain = 0.000
+# launch_runs impl_1 -to_step route_design -jobs 8
+[Tue May 12 16:50:41 2026] Launched synth_1...
+Run output will be captured here: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.runs/synth_1/runme.log
+[Tue May 12 16:50:41 2026] Launched impl_1...
+Run output will be captured here: D:/STUDY/HE_THONG_HDL/DO_AN/code/AES256_Copy/project_1/project_1.runs/impl_1/runme.log
+# wait_on_run impl_1
+[Tue May 12 16:50:41 2026] Waiting for impl_1 to finish...
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+[Tue May 12 16:52:22 2026] Interrupt received
+wait_on_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:01:41 . Memory (MB): peak = 480.219 ; gain = 0.000
+INFO: [Common 17-344] 'wait_on_runs' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-206] Exiting Vivado at Tue May 12 16:52:22 2026...

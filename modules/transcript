@@ -1,0 +1,252 @@
+# Compile of tb_DMAFinal.v was successful.
+vsim -gui work.tb_DMAFinal
+# vsim -gui work.tb_DMAFinal 
+# Start time: 21:08:20 on May 21,2026
+# Loading work.tb_DMAFinal
+# Loading work.DMAFinal
+# Loading work.control_slave
+# Loading work.write_master
+# Loading work.read_master
+# Loading work.FIFO
+add wave -position insertpoint sim:/tb_DMAFinal/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ADMIN  Hostname: MSI  ProcessID: 21740
+#           Attempting to use alternate WLF file "./wlftqnyg0h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqnyg0h
+run -all
+# [0 ns] status=0xxxxxxxxx  DONE=x  BUSY=x  GO=x
+# [10000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# ======================================================
+#   [150000 ns] CAU HINH DMA
+# ======================================================
+# [180000 ns] RM_startaddress = 0x0000_1000
+# [220000 ns] WM_startaddress = 0x0000_2000
+# [260000 ns] Length          = 0x20 (32 byte, 8 words)
+# [290000 ns] status=0x00000000  DONE=0  BUSY=0  GO=1
+# [300000 ns] Control         = 0x08  (GO=1, bit[3]=1)
+# ======================================================
+#   [300000 ns] DMA DA KHOI DONG, CHO KET QUA...
+# ======================================================
+# 
+# [300000 ns] Dang cho DMA hoan thanh...
+# [310000 ns] status=0x00000002  DONE=0  BUSY=1  GO=1
+# [430000 ns] WRITE #1  addr=0x00002000  data=0xdead1000
+# [490000 ns] WRITE #2  addr=0x00002004  data=0xdead1004
+# [550000 ns] WRITE #3  addr=0x00002008  data=0xdead1008
+# [610000 ns] WRITE #4  addr=0x0000200c  data=0xdead100c
+# [670000 ns] WRITE #5  addr=0x00002010  data=0xdead1010
+# [730000 ns] WRITE #6  addr=0x00002014  data=0xdead1014
+# [790000 ns] WRITE #7  addr=0x00002018  data=0xdead1018
+# [850000 ns] WRITE #8  addr=0x0000201c  data=0xdead101c
+# 
+# **********************************************
+#   TIN HIEU DONE DA DUOC BAT THANH CONG!
+#   Thoi diem: 870 ns
+#   status register = 0x00000001
+#   DONE (bit0)     = 1
+#   BUSY (bit1)     = 0
+# **********************************************
+# 
+# [870000 ns] status=0x00000001  DONE=1  BUSY=0  GO=1
+# [890000 ns] DMA hoan thanh sau 30 chu ky clock.
+# [890000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# 
+# ======================================================
+#   TONG KET MO PHONG
+# ======================================================
+#   done_captured = 1
+#   Thoi diem DONE xuat hien: 870 ns
+#   Tong so lan ghi ra RAM dich: 8
+#   status hien tai = 0x00000000 (phai = 0 sau khi done)
+# ======================================================
+# 
+# ** Note: $finish    : E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v(260)
+#    Time: 910 ns  Iteration: 0  Instance: /tb_DMAFinal
+# 1
+# Break in Module tb_DMAFinal at E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v line 260
+quit -sim
+# Compile of control_slave.v was successful.
+# Compile of DMA.v was successful.
+# Compile of DMAFinal.v was successful.
+# Compile of FIFO.v was successful.
+# Compile of read_master.v was successful.
+# Compile of write_master.v was successful.
+# Compile of tb_control_slave.v was successful.
+# Compile of tb_DMAFinal.v was successful.
+# Compile of tb_FIFO.v was successful.
+# Compile of tb_read_master.v was successful.
+# Compile of tb_write_master.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 21:14:02 on May 21,2026, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 5
+vsim -gui work.tb_DMAFinal
+# vsim -gui work.tb_DMAFinal 
+# Start time: 21:14:15 on May 21,2026
+# Loading work.tb_DMAFinal
+# Loading work.DMAFinal
+# Loading work.control_slave
+# Loading work.write_master
+# Loading work.read_master
+# Loading work.FIFO
+run -all
+# [0 ns] status=0xxxxxxxxx  DONE=x  BUSY=x  GO=x
+# [10000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# ======================================================
+#   [150000 ns] CAU HINH DMA
+# ======================================================
+# [180000 ns] RM_startaddress = 0x0000_1000
+# [220000 ns] WM_startaddress = 0x0000_2000
+# [260000 ns] Length          = 0x20 (32 byte, 8 words)
+# [290000 ns] status=0x00000000  DONE=0  BUSY=0  GO=1
+# [300000 ns] Control         = 0x08  (GO=1, bit[3]=1)
+# ======================================================
+#   [300000 ns] DMA DA KHOI DONG, CHO KET QUA...
+# ======================================================
+# 
+# [300000 ns] Dang cho DMA hoan thanh...
+# [310000 ns] status=0x00000002  DONE=0  BUSY=1  GO=1
+# [430000 ns] WRITE #1  addr=0x00002000  data=0xdead1000
+# [490000 ns] WRITE #2  addr=0x00002004  data=0xdead1004
+# [550000 ns] WRITE #3  addr=0x00002008  data=0xdead1008
+# [610000 ns] WRITE #4  addr=0x0000200c  data=0xdead100c
+# [670000 ns] WRITE #5  addr=0x00002010  data=0xdead1010
+# [730000 ns] WRITE #6  addr=0x00002014  data=0xdead1014
+# [790000 ns] WRITE #7  addr=0x00002018  data=0xdead1018
+# [850000 ns] WRITE #8  addr=0x0000201c  data=0xdead101c
+# 
+# **********************************************
+#   TIN HIEU DONE DA DUOC BAT THANH CONG!
+#   Thoi diem: 870 ns
+#   status register = 0x00000001
+#   DONE (bit0)     = 1
+#   BUSY (bit1)     = 0
+# **********************************************
+# 
+# [870000 ns] status=0x00000001  DONE=1  BUSY=0  GO=1
+# [890000 ns] DMA hoan thanh sau 30 chu ky clock.
+# [890000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# 
+# ======================================================
+#   TONG KET MO PHONG
+# ======================================================
+#   done_captured = 1
+#   Thoi diem DONE xuat hien: 870 ns
+#   Tong so lan ghi ra RAM dich: 8
+#   status hien tai = 0x00000000 (phai = 0 sau khi done)
+# ======================================================
+# 
+# ** Note: $finish    : E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v(261)
+#    Time: 910 ns  Iteration: 0  Instance: /tb_DMAFinal
+# 1
+# Break in Module tb_DMAFinal at E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v line 261
+quit -sim
+# Compile of control_slave.v was successful.
+# Compile of DMA.v was successful.
+# Compile of DMAFinal.v was successful.
+# Compile of FIFO.v was successful.
+# Compile of read_master.v was successful.
+# Compile of write_master.v was successful.
+# Compile of tb_control_slave.v was successful.
+# Compile of tb_DMAFinal.v was successful.
+# Compile of tb_FIFO.v was successful.
+# Compile of tb_read_master.v was successful.
+# Compile of tb_write_master.v was successful.
+# 11 compiles, 0 failed with no errors.
+# End time: 21:15:00 on May 21,2026, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# Compile of control_slave.v was successful.
+# Compile of DMA.v was successful.
+# Compile of DMAFinal.v was successful.
+# Compile of FIFO.v was successful.
+# Compile of read_master.v was successful.
+# Compile of write_master.v was successful.
+# Compile of tb_control_slave.v was successful.
+# Compile of tb_DMAFinal.v was successful.
+# Compile of tb_FIFO.v was successful.
+# Compile of tb_read_master.v was successful.
+# Compile of tb_write_master.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb_DMAFinal
+# vsim -gui work.tb_DMAFinal 
+# Start time: 21:27:18 on May 21,2026
+# Loading work.tb_DMAFinal
+# Loading work.DMAFinal
+# Loading work.control_slave
+# Loading work.write_master
+# Loading work.read_master
+# Loading work.FIFO
+add wave -position insertpoint sim:/tb_DMAFinal/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ADMIN  Hostname: MSI  ProcessID: 21740
+#           Attempting to use alternate WLF file "./wlftnanma8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnanma8
+run -all
+# [0 ns] status=0xxxxxxxxx  DONE=x  BUSY=x  GO=x
+# [10000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# ======================================================
+#   [150000 ns] CAU HINH DMA
+# ======================================================
+# [180000 ns] RM_startaddress = 0x0000_1000
+# [220000 ns] WM_startaddress = 0x0000_2000
+# [260000 ns] Length          = 0x20 (32 byte, 8 words)
+# [290000 ns] status=0x00000000  DONE=0  BUSY=0  GO=1
+# [300000 ns] Control         = 0x08  (GO=1, bit[3]=1)
+# ======================================================
+#   [300000 ns] DMA DA KHOI DONG, CHO KET QUA...
+# ======================================================
+# 
+# [300000 ns] Dang cho DMA hoan thanh...
+# [310000 ns] status=0x00000002  DONE=0  BUSY=1  GO=1
+# [430000 ns] WRITE #1  addr=0x00002000  data=0xdead1000
+# [490000 ns] WRITE #2  addr=0x00002004  data=0xdead1004
+# [550000 ns] WRITE #3  addr=0x00002008  data=0xdead1008
+# [610000 ns] WRITE #4  addr=0x0000200c  data=0xdead100c
+# [670000 ns] WRITE #5  addr=0x00002010  data=0xdead1010
+# [730000 ns] WRITE #6  addr=0x00002014  data=0xdead1014
+# [790000 ns] WRITE #7  addr=0x00002018  data=0xdead1018
+# [850000 ns] WRITE #8  addr=0x0000201c  data=0xdead101c
+# 
+# **********************************************
+#   TIN HIEU DONE DA DUOC BAT THANH CONG!
+#   Thoi diem: 870 ns
+#   status register = 0x00000001
+#   DONE (bit0)     = 1
+#   BUSY (bit1)     = 0
+# **********************************************
+# 
+# [870000 ns] status=0x00000001  DONE=1  BUSY=0  GO=1
+# [890000 ns] DMA hoan thanh sau 30 chu ky clock.
+# [890000 ns] status=0x00000000  DONE=0  BUSY=0  GO=0
+# 
+# ======================================================
+#   TONG KET MO PHONG
+# ======================================================
+#   done_captured = 1
+#   Thoi diem DONE xuat hien: 870 ns
+#   Tong so lan ghi ra RAM dich: 8
+#   status hien tai = 0x00000000 (phai = 0 sau khi done)
+# ======================================================
+# 
+# ** Note: $finish    : E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v(261)
+#    Time: 910 ns  Iteration: 0  Instance: /tb_DMAFinal
+# 1
+# Break in Module tb_DMAFinal at E:/work/HDL/Lab3/Lab3/DMAFinal/tb_DMAFinal.v line 261
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 09:33:16 on May 22,2026, Elapsed time: 12:05:58
+# Errors: 0, Warnings: 4
+cd E:/work/HDL/Doan
+project open E:/work/HDL/AES256_Copy/AES256_Copy/AES256
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project AES256
+project open E:/work/HDL/Lab3/Lab3/DMAFinal/Lab3
