@@ -13,6 +13,9 @@ The core architecture utilizes a **fully unrolled pipeline**, prioritizing maxim
 
 ## ✨ Architecture & Features
 
+<img width="1029" height="279" alt="Screenshot 2026-05-12 100302" src="https://github.com/user-attachments/assets/75d22f9f-c883-4d50-a5de-68a8d25ea2ed" />
+
+
 * **Fully Unrolled Pipeline:** The design flattens all 14 rounds of the AES-256 algorithm into sequential physical hardware stages. 
 * **High Throughput:** After an initial latency of 15 clock cycles, the system outputs a new 128-bit ciphertext block every single clock cycle.
 * **Parallel Key Expansion:** The 256-bit key schedule is computed simultaneously alongside the datapath, providing 15 independent 128-bit round keys without stalling the main pipeline.
